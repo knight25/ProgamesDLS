@@ -42,30 +42,34 @@
                      
                                     <div class="form-group">
                                         <label>Full Name</label>
-                                        <input placeholder="Enter your Name" type="text" name="Full-Name">
+                                        <input placeholder="Enter your Name" type="text" name="Full-Name" required>
                                     </div>
                                     <div class="form-group">
                                         <label>DLS Team's Name</label>
-                                        <input placeholder="Enter your Team Name" type="text" name="Team's-Name">
+                                        <input placeholder="Enter your Team Name" type="text" name="Team's-Name" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="file">Profile Image</label>
                                         <img src="./Assets/Dls.jpg">
                                         <p style="color: black;"> Example of how your DLS profile should be uploaded below ⬇ </p>
-                                        <input type="file" name="resume" accept=".png,.jpg,.jpeg,.tiff,.tif">
+                                        <input type="file" name="resume" accept=".png,.jpg,.jpeg,.tiff,.tif" required> 
                                     </div>
                                     <div class="form-group">
                                         <label>Whatsapp Number</label>
-                                        <input placeholder="+234**********" type="number" name="Number">
+                                        <input placeholder="+234**********" type="number" name="Number" required>
                                     </div>
                                     <div class="form-group">
                                         <label>E- Mail</label>
-                                        <input placeholder="johndeo@gmail.com" type="text" name="E-Mail">
+                                        <input placeholder="johndeo@gmail.com" type="text" name="E-Mail" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>X Handle</label>
+                                    <input placeholder="@johndeo" type="text" name="X Handle"required>
                                     </div>
                                     <div class="form-group">
                                         <label for="gender">Gender</label>
                                         <div class="select-box" style="outline:none; border: none; margin-top: -14px;" >
-                                           <select id="gender" name="Gender">
+                                           <select id="gender" name="Gender" required>
                                               <option selected disabled></option>
                                               <option value="Male">Male</option>
                                               <option value="Female">Female</option>
@@ -76,7 +80,7 @@
                                     <div class="form-group" style="margin-top: -20px;">
                                         <label for="device">Your Device </label>
                                         <div class="select-box" style="outline:none; border: none; margin-top: -14px;" >
-                                           <select id="devive" name="Device">
+                                           <select id="devive" name="Device" required>
                                               <option selected disabled></option>
                                               <option value="Iphone">Iphone</option>
                                               <option value="Samsung">Samsung</option>
